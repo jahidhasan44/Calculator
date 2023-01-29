@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Simple calculator made by jahid</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/app.js"></script>
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <div class="calculator_body">
+        <table>
+            <tr>
+                <td colspan="4"><input type="text" id="my_result"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="C" onclick="deleteMe()"></td>
+                <td><input type="button" value="(" onclick="calCulate( ' ( ' )"></td>
+                <td><input type="button" value=")" onclick="calCulate( ' ) ' )"></td>
+                <td><input type="button" value="√" onclick="squreRoot( ' √ ' )"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="7" onclick="calCulate('7')"></td>
+                <td><input type="button" value="8" onclick="calCulate('8')"></td>
+                <td><input type="button" value="9" onclick="calCulate('9')"></td>
+                <td><input type="button" value="+" onclick="calCulate(' + ')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="4" onclick="calCulate('4')"></td>
+                <td><input type="button" value="5" onclick="calCulate('5')"></td>
+                <td><input type="button" value="6" onclick="calCulate('6')"></td>
+                <td><input type="button" value="-" onclick="calCulate(' - ')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="1" onclick="calCulate('1')"></td>
+                <td><input type="button" value="2" onclick="calCulate('2')"></td>
+                <td><input type="button" value="3" onclick="calCulate('3')"></td>
+                <td><input type="button" value="/" onclick="calCulate('/')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="0" onclick="calCulate('0')"></td>
+                <td><input type="button" value="." onclick="calCulate('.')"></td>
+                <td><input type="button" value="*" onclick="calCulate('*')"></td>
+                <td><input type="button" value="=" onclick="reSult(' = ')"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
